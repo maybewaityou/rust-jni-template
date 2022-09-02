@@ -1,0 +1,1 @@
+# Rust JNI Template
