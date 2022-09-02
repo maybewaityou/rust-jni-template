@@ -19,7 +19,7 @@ pub extern "C" fn invokeCallbackViaJNA(callback: Callback) {
 
 #[no_mangle]
 #[allow(non_snake_case)]
-pub extern "C" fn Java_com_climb2fame_apps_native_facade_NativeFacade_invokeCallbackViaJNI(
+pub extern "C" fn Java_com_climb2fame_apps_facade_RealJNIFacade_invokeCallbackViaJNI(
   env: JNIEnv,
   _class: JClass,
   callback: JObject,
